@@ -5,3 +5,23 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+# db/seeds.rb
+# puts 'Creating cocktails...'
+# dragon = Cocktail.new(name: "le dragon")
+# dragon.save!
+
+# roudoudou = Cocktail.new(name: "le roudoudou")
+# roudoudou.save!
+# puts 'Finished!'
+
+Ingredient.create(name: "Cocaine")
+Ingredient.create(name: "GHB")
+Ingredient.create(name: "Orange Juice")
+Ingredient.create(name: "Spiruline")
+Ingredient.create(name: "Devil Powder")
+Ingredient.create(name: "Vodka")
+Ingredient.create(name: "Bailey's")
+Ingredient.create(name: "OxyContin")
+Ingredient.create(name: "Valium")
+Ingredient.create(name: "Wine")
+Ingredient.create(name: "Prozac")
